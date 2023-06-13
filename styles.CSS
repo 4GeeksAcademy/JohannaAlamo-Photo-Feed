@@ -1,0 +1,70 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(193, 190, 190);
+}
+
+.titulo{
+    background-color: white;
+    align-content: center;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .post {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  
+  .post-info {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .post-title {
+    margin: 0;
+    color: black; 
+    font-size: 18px;
+    text-align: left;
+    font-size: medium;
+
+  }
+  
+  .post-date {
+    margin: 0;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .post-footer {
+    width: 100%;
+    
+  }
+  
+  .caption {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    margin: 0;
+    font-size: 14px;
+    color: #000000;
+  }
+  
